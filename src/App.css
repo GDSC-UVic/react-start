@@ -5,6 +5,30 @@
   text-align: center;
 }
 
+/* step 1 */
+.header-text {
+  color: red;
+}
+
+.header-text:hover {
+  color: blue;
+}
+
+/* step 2 */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 1em;
+  padding: 1em;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
