@@ -5,6 +5,7 @@ function App() {
     <>
       <h1>React App</h1>
       <p>Blank Template</p>
+      <button>Click Me</button>
     </>
   )
 }
