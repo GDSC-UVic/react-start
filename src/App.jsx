@@ -1,11 +1,13 @@
 import './App.css'
 
+
 function App() {
+  console.log("hello world");
   return (
     <>
-      <h1>React App</h1>
-      <p>Blank Template</p>
-      <button>Click Me</button>
+      <h1>React App Starter Code</h1>
+      <p>Hello World</p>
+      <button>Click Me, I do nothing</button>
     </>
   )
 }
