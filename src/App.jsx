@@ -20,6 +20,8 @@ function App() {
         onChange={(e) => setInputValue(e.target.value)}
       />
       <h1>Render Count: {count.current}</h1>
+      {/* Why does render count jump from 0 to 2 after input change? 
+            This is because `useEffect` runs after every render. When it runs, it increments `count.current` by 1. And when a character is entered or deleted in the input field, it triggers a state update, causing a render. During this render, `useEffect` runs again, incrementing the count. */}
     </>
   );
 }
