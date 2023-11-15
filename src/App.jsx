@@ -4,7 +4,7 @@ function App() {
   // Step 3: create a function that chage the color of the header
   const changeColor = () => {
     const header = document.querySelector('.header-text')
-    header.style.color = 'white'
+    header.style.color = 'purple'
   }
   return (
     <>
