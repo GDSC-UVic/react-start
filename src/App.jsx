@@ -18,6 +18,14 @@ function App() {
   //   const header = document.querySelector('.header-text')
   //   header.style.color = 'green'
   // }, [])
+
+  // useEffect(() => {
+    // if (count > 6) {
+    //   console.log('useEffect')
+    //   const header = document.querySelector('.header-text')
+    //   header.style.color = 'purple'
+    // }
+  // }, [count])
   return (
     <>
       <h1 className="header-text">React App</h1>
